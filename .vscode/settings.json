@@ -1,0 +1,38 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit"
+  },
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": false,
+  "prettier.configPath": ".prettierrc.json",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.component.html": "html",
+    "*.component.scss": "scss"
+  },
+  "emmet.includeLanguages": {
+    "typescript": "html",
+    "scss": "css"
+  },
+  "stylelint.validate": ["scss", "css"],
+  "css.validate": false,
+  "scss.validate": false
+}
